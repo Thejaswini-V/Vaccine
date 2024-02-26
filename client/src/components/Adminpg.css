@@ -1,0 +1,105 @@
+/* Adminpg.css */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.admin-container {
+  position: relative; /* Ensure the container is positioned relatively */
+  padding: 20px;
+}
+
+.addnew {
+  background-color: #00CED1;
+  color: white;
+  border: none;
+  width: 100px; /* Adjust width as needed */
+  border-radius: 5px;
+  padding: 8px 16px; /* Adjust padding as needed */
+  font-size: 14px; /* Adjust font size as needed */
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 40px; /* Add margin top to create space for the table */
+}
+
+
+
+.form-container {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto; /* Center the form horizontally */
+  max-width: 400px; /* Adjust the maximum width as needed */
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-container input, .form-dropdown {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.form-dropdown {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-centre-btn {
+  background-color: #00CED1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table th, .admin-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.admin-table th {
+  background-color: #00CED1;
+  color: white;
+  position: relative; /* Ensure proper stacking context */
+  z-index: 2; /* Set a higher z-index to ensure it appears above the button */
+}
+
+.admin-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.admin-table tr:hover {
+  background-color: #ddd;
+}
+
+.delete-btn, .slot-btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.delete-btn:hover, .slot-btn:hover {
+  background-color: #e60000;
+}
